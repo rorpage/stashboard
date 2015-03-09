@@ -2,10 +2,10 @@ import os
 
 DEBUG = False
 
-SITE_NAME = "Stashboard"
-SITE_AUTHOR = "Colonel Mustache"
-SITE_URL = "http://stashbooard.appspot.com"
-REPORT_URL = "mailto:help@stashboard.org"
+SITE_NAME = "WDWNT Status"
+SITE_AUTHOR = "Rob Page"
+SITE_URL = "http://status.wdwnt.com"
+REPORT_URL = "mailto:rob@wdwnt.com"
 
 # Twitter update settings
 TWITTER_CONSUMER_KEY = ''
@@ -18,8 +18,8 @@ TWITTER_HANDLE = 'stashboard_status'
 RSS_NUM_EVENTS_TO_FETCH = 50
 
 # OAuth Consumer Credentials
-CONSUMER_KEY = 'anonymous'
-CONSUMER_SECRET = 'anonymous'
+CONSUMER_KEY = '137294401705-qrc8tj34k3q9dopbj7jojfsm98vivthm.apps.googleusercontent.com'
+CONSUMER_SECRET = 't3sVhTPgO4MHvceCVDwjCWhU'
 
 TEMPLATE_DIRS = (
     os.path.join(os.path.dirname(__file__), "templates"),
