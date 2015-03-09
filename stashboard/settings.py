@@ -18,8 +18,8 @@ TWITTER_HANDLE = 'stashboard_status'
 RSS_NUM_EVENTS_TO_FETCH = 50
 
 # OAuth Consumer Credentials
-CONSUMER_KEY = '137294401705-qrc8tj34k3q9dopbj7jojfsm98vivthm.apps.googleusercontent.com'
-CONSUMER_SECRET = 't3sVhTPgO4MHvceCVDwjCWhU'
+CONSUMER_KEY = 'anonymous'
+CONSUMER_SECRET = 'anonymous'
 
 TEMPLATE_DIRS = (
     os.path.join(os.path.dirname(__file__), "templates"),
